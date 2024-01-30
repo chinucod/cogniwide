@@ -8,7 +8,7 @@ const Companies = () => {
   return (
     <div>
       <div className=" font-f m-10">
-        <h1 className="text-center text-[2.5rem] font-medium">
+        <h1 className="text-center text-[32px] font-semibold">
           Trusted By Leading Brands
         </h1>
       </div>

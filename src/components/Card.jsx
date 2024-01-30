@@ -9,7 +9,7 @@ const Card = () => {
   return (
     <div className="m-[100px]">
       <div className="font-f text-center ">
-        <h1 className="text-4xl font-semibold p-3">
+        <h1 className="text-[32px] font-semibold p-3">
           Cogniwide Value Proposition
         </h1>
         <p className="text-base text-gray-400">
@@ -96,6 +96,32 @@ const Card = () => {
               far, in reverse chronological order.
             </p>
           </h1>
+        </div>
+      </div>
+      <div className="flex justify-center font-f text-center gap-[80px]">
+        <div>
+          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
+            20+
+          </h1>
+          <p className=" font-medium text-base">Enterprise Customers</p>
+        </div>
+        <div>
+          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
+            20M+
+          </h1>
+          <p className=" font-medium text-base">Consumer base impacted daily</p>
+        </div>
+        <div>
+          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
+            32+
+          </h1>
+          <p className=" font-medium text-base">Products rolled out</p>
+        </div>
+        <div>
+          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
+            50+
+          </h1>
+          <p className=" font-medium text-base">Projects Delivered</p>
         </div>
       </div>
     </div>
