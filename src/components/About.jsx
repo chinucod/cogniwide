@@ -1,24 +1,28 @@
 import React from "react";
-
+import img1 from "../images/chat.jpg";
 const About = () => {
   return (
-    <div>
-      <div>
-        <div className="text-center m-20 my-[11rem] font-f">
-          <h1 className=" text-6xl font-semibold">
-            Empower your business with <br></br>
-            <span className="text-[3rem] text-indigo-600 font-bold">
-              Enterprise GPT Capabilities
+    <div className="">
+      <div className="flex ml-[150px] mt-[80px] w-[1280px] h-[444px] items-center">
+        <div className=" flex-1 font-f">
+          <h1 className=" text-[1.4rem]  font-medium">
+            An Omnichannel digital assistant <br></br>
+            <span className="text-6xl text-indigo-600 font-bold">
+              CogniAssist
             </span>
           </h1>
-          <p className="mx-[300px] my-10 text-sm">
-            Enhance your customer and employee experiences effortlessly by
-            building chatbotsacross multiple channels using our intuitive
-            low-code, no-code platform integrated with GPT capabilities.
+          <p className="my-3  text-sm">
+            Advance your automation journey with an intelligent virtual
+            assistant that can improve service delivery, enhance customer
+            experience, increase capacity, reduce backlogs and achieve quicker
+            turnaround times.
           </p>
           <button className="bg-indigo-600 px-4 py-2 rounded-full text-white font-medium hover:bg-indigo-800 transition duration-200">
-            Try for free
+            GET A DEMO
           </button>
+        </div>
+        <div className="flex-1">
+          <img className="w-[600px]" src={img1} />
         </div>
       </div>
     </div>

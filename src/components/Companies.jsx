@@ -7,7 +7,7 @@ import img4 from "../images/fdbank.png";
 const Companies = () => {
   return (
     <div>
-      <div className=" font-f m-10">
+      <div className=" font-f m-10 mt-[90px]">
         <h1 className="text-center text-[32px] font-semibold">
           Trusted By Leading Brands
         </h1>
