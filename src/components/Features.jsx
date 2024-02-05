@@ -3,7 +3,7 @@ import { features } from "../data";
 const Features = () => {
   return (
     <div>
-      <div className="font-f mt-16">
+      <div className="font-f mt-16 ">
         <div className=" items-center">
           <h1 className="text-center text-4xl font-semibold">Features</h1>
           <p className="mx-[300px] my-10 text-sm text-center">

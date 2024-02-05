@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../images/chat.jpg";
 const About = () => {
   return (
-    <div className="">
+    <div className="h-fit">
       <div className="flex ml-[150px] mt-[80px] w-[1280px] h-[444px] items-center">
         <div className=" flex-1 font-f">
           <h1 className=" text-[1.4rem]  font-medium">
@@ -17,7 +17,7 @@ const About = () => {
             experience, increase capacity, reduce backlogs and achieve quicker
             turnaround times.
           </p>
-          <button className="bg-indigo-600 px-4 py-2 rounded-full text-white font-medium hover:bg-indigo-800 transition duration-200">
+          <button className="bg-indigo-600 hover:scale-105 px-4 py-2 rounded-full text-white font-medium hover:transition duration-200">
             GET A DEMO
           </button>
         </div>

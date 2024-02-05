@@ -9,7 +9,23 @@ import img8 from "../src/images/1.jpg";
 import f1 from "../src/images/empathy.jpg";
 import f2 from "../src/images/security.jpg";
 import f3 from "../src/images/lap.jpg";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPlane,
+  faBuildingColumns,
+  faHeart,
+  faUmbrella,
+  faCartShopping,
+  faLink,
+  faSatelliteDish,
+  faHeadset,
+  faDollarSign,
+  faScrewdriverWrench,
+  faUser,
+  faChartPie,
+  faUserTie,
+  faGear,
+} from "@fortawesome/free-solid-svg-icons";
 export const products = [
   {
     id: 1,
@@ -74,4 +90,170 @@ export const features = [
     head: "Readily Interoperable",
     p: "Embark on the road to AI-powered services with APIs that can be integrated quickly and efficiently along with a user-friendly interface.",
   },
+];
+
+export const industries = [
+  {
+    id: 1,
+    img: (
+      <FontAwesomeIcon
+        icon={faPlane}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Airlines",
+  },
+  {
+    id: 2,
+    img: (
+      <FontAwesomeIcon
+        icon={faBuildingColumns}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Banking",
+  },
+  {
+    id: 3,
+    img: (
+      <FontAwesomeIcon
+        icon={faHeart}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Healthcare",
+  },
+  {
+    id: 4,
+    img: (
+      <FontAwesomeIcon
+        icon={faUmbrella}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Insurance",
+  },
+  {
+    id: 5,
+    img: (
+      <FontAwesomeIcon
+        icon={faCartShopping}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Retail",
+  },
+  {
+    id: 6,
+    img: (
+      <FontAwesomeIcon
+        icon={faLink}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Supply chain",
+  },
+  {
+    id: 7,
+    img: (
+      <FontAwesomeIcon
+        icon={faSatelliteDish}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Telecom",
+  },
+];
+export const industries2 = [
+  {
+    id: 1,
+    img: (
+      <FontAwesomeIcon
+        icon={faHeadset}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Support",
+  },
+  {
+    id: 2,
+    img: (
+      <FontAwesomeIcon
+        icon={faDollarSign}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Sales",
+  },
+  {
+    id: 3,
+    img: (
+      <FontAwesomeIcon
+        icon={faScrewdriverWrench}
+        style={{ color: "#74C0FC" }}
+        className="text-6xl"
+      />
+    ),
+    p: "IT Help",
+  },
+  {
+    id: 4,
+    img: (
+      <FontAwesomeIcon
+        icon={faUser}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "HR",
+  },
+  {
+    id: 5,
+    img: (
+      <FontAwesomeIcon
+        icon={faChartPie}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Finance",
+  },
+  {
+    id: 6,
+    img: (
+      <FontAwesomeIcon
+        icon={faUserTie}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Marketing",
+  },
+  {
+    id: 7,
+    img: (
+      <FontAwesomeIcon
+        icon={faGear}
+        className="text-6xl"
+        style={{ color: "#74C0FC" }}
+      />
+    ),
+    p: "Operation",
+  },
+];
+export const kpi1 = [
+  { id: 1, num: "90%", p: "Customer Conversations" },
+  { id: 2, num: "76%", p: "Customer Satisfaction" },
+  { id: 3, num: "84%", p: "Average Order Value" },
+  { id: 4, num: "76%", p: "Employee productivity" },
+  { id: 5, num: "28%", p: "Customer Care Costs" },
 ];
