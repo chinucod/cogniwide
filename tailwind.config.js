@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -9,6 +10,7 @@ module.exports = {
       },
       colors: {
         iblue: "#5c42fc",
+        ii: "#006dee",
       },
       animation: {
         "infinite-scroll": "infinite-scroll 25s linear infinite",
@@ -22,4 +24,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+});

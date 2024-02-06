@@ -22,7 +22,7 @@ const AboutCogni = () => {
             and see the versatile ways in which our intelligent virtual
             assistant can help you save time.
           </p>
-          <button className="bg-indigo-600 px-4 py-2 rounded-full text-white font-medium hover:bg-indigo-800 transition duration-200">
+          <button className="bg-ii px-4 py-2 rounded-full text-white font-medium hover:bg-indigo-800 transition duration-200">
             Request Demo
           </button>
         </div>

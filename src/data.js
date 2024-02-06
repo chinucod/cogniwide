@@ -25,6 +25,9 @@ import {
   faChartPie,
   faUserTie,
   faGear,
+  faComments,
+  faSackDollar,
+  faPeopleGroup,
 } from "@fortawesome/free-solid-svg-icons";
 export const products = [
   {
@@ -99,7 +102,7 @@ export const industries = [
       <FontAwesomeIcon
         icon={faPlane}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Airlines",
@@ -110,7 +113,7 @@ export const industries = [
       <FontAwesomeIcon
         icon={faBuildingColumns}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Banking",
@@ -121,7 +124,7 @@ export const industries = [
       <FontAwesomeIcon
         icon={faHeart}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Healthcare",
@@ -132,7 +135,7 @@ export const industries = [
       <FontAwesomeIcon
         icon={faUmbrella}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Insurance",
@@ -143,7 +146,7 @@ export const industries = [
       <FontAwesomeIcon
         icon={faCartShopping}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Retail",
@@ -154,7 +157,7 @@ export const industries = [
       <FontAwesomeIcon
         icon={faLink}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Supply chain",
@@ -165,7 +168,7 @@ export const industries = [
       <FontAwesomeIcon
         icon={faSatelliteDish}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Telecom",
@@ -178,7 +181,7 @@ export const industries2 = [
       <FontAwesomeIcon
         icon={faHeadset}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Support",
@@ -189,7 +192,7 @@ export const industries2 = [
       <FontAwesomeIcon
         icon={faDollarSign}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Sales",
@@ -199,7 +202,7 @@ export const industries2 = [
     img: (
       <FontAwesomeIcon
         icon={faScrewdriverWrench}
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
         className="text-6xl"
       />
     ),
@@ -211,7 +214,7 @@ export const industries2 = [
       <FontAwesomeIcon
         icon={faUser}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "HR",
@@ -222,7 +225,7 @@ export const industries2 = [
       <FontAwesomeIcon
         icon={faChartPie}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Finance",
@@ -233,7 +236,7 @@ export const industries2 = [
       <FontAwesomeIcon
         icon={faUserTie}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Marketing",
@@ -244,7 +247,7 @@ export const industries2 = [
       <FontAwesomeIcon
         icon={faGear}
         className="text-6xl"
-        style={{ color: "#74C0FC" }}
+        style={{ color: "#006dee" }}
       />
     ),
     p: "Operation",
@@ -256,4 +259,42 @@ export const kpi1 = [
   { id: 3, num: "84%", p: "Average Order Value" },
   { id: 4, num: "76%", p: "Employee productivity" },
   { id: 5, num: "28%", p: "Customer Care Costs" },
+];
+export const Rethink1 = [
+  {
+    id: 1,
+    img: (
+      <FontAwesomeIcon
+        className="mt-[8px]"
+        icon={faComments}
+        style={{ color: "white" }}
+      />
+    ),
+    h1: "CogniAssist for Customer Service",
+    p: "Check how Cogniassist offers instant and pertinent customer recommendations and routes conversations to humans when required.",
+  },
+  {
+    id: 2,
+    img: (
+      <FontAwesomeIcon
+        className="mt-[8px]"
+        icon={faSackDollar}
+        style={{ color: "white" }}
+      />
+    ),
+    h1: "CogniAssist for Customer Service",
+    p: "Check how Cogniassist offers instant and pertinent customer recommendations and routes conversations to humans when required.",
+  },
+  {
+    id: 3,
+    img: (
+      <FontAwesomeIcon
+        className="mt-[8px]"
+        icon={faPeopleGroup}
+        style={{ color: "white" }}
+      />
+    ),
+    h1: "CogniAssist for Customer Service",
+    p: "Check how Cogniassist offers instant and pertinent customer recommendations and routes conversations to humans when required.",
+  },
 ];

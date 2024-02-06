@@ -3,7 +3,7 @@ import { industries, industries2 } from "../data";
 
 const Industries = () => {
   return (
-    <div className="font-f bg-indigo-50 h-screen">
+    <div className="font-f  bg-gradient-to-r  h-screen">
       <div className=" text-center">
         <h1 className="text-4xl font-semibold p-5 pt-16">AI for Industries</h1>
         <p className="text-xl">

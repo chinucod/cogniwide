@@ -9,6 +9,7 @@ import Headerc from "./components/Headerc";
 import Industries from "./components/Industries";
 import Kpi from "./components/Kpi";
 import Products from "./components/Products";
+import Rethink from "./components/Rethink";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AboutCogni />
       <Industries />
       <Kpi />
+      <Rethink />
       <Card />
       <Products />
     </div>

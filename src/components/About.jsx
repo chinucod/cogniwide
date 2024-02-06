@@ -7,9 +7,7 @@ const About = () => {
         <div className=" flex-1 font-f">
           <h1 className=" text-[1.4rem]  font-medium">
             An Omnichannel digital assistant <br></br>
-            <span className="text-6xl text-indigo-600 font-bold">
-              CogniAssist
-            </span>
+            <span className="text-6xl text-ii font-bold">CogniAssist</span>
           </h1>
           <p className="my-3  text-sm">
             Advance your automation journey with an intelligent virtual
@@ -17,7 +15,7 @@ const About = () => {
             experience, increase capacity, reduce backlogs and achieve quicker
             turnaround times.
           </p>
-          <button className="bg-indigo-600 hover:scale-105 px-4 py-2 rounded-full text-white font-medium hover:transition duration-200">
+          <button className="bg-ii hover:scale-105 px-4 py-2 rounded-full text-white font-medium hover:transition duration-200">
             GET A DEMO
           </button>
         </div>

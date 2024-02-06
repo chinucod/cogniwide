@@ -12,7 +12,7 @@ const Kpi = () => {
         <div className="flex gap-5 p-5 justify-center">
           {kpi1.map((item) => (
             <div className=" bg-gradient-to-r from-indigo-50 shadow-xl w-[258px] h-[183px] rounded-xl text-center ">
-              <h1 className="text-7xl font-semibold text-blue-600 mt-10">
+              <h1 className="text-7xl font-semibold text-ii mt-10">
                 {item.num}
               </h1>
               <p className=" text-[1rem] font-semibold p-2">{item.p}</p>

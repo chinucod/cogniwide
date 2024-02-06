@@ -77,59 +77,47 @@ const Headerc = () => {
     );
   }
   return (
-    <div className="pl-20 pr-20">
-      <nav className="pl-10 pr-10 pt-10 flex justify-between items-center ">
+    <div className="pl-20 pr-20 sticky top-0 z-50 bg-white font-f">
+      <nav className="pl-10 pr-10 py-5 flex justify-between items-center ">
         <img src={logo} />
         <ul className="flex gap-[4vh] items-center mr-[1vw] font-semibold text-sm font-f">
           <li>
             <a
               href="#"
-              className="hover:text-indigo-600 text-inherit no-underline"
+              className="hover:text-ii text-inherit no-underline"
               onClick={() => setOnClick("products")}
             >
               Products <FontAwesomeIcon icon={faAngleDown} size="xs" />
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              className="hover:text-indigo-600 text-inherit no-underline"
-            >
+            <a href="#" className="hover:text-ii text-inherit no-underline">
               Services <FontAwesomeIcon icon={faAngleDown} size="xs" />
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              className="hover:text-indigo-600 text-inherit no-underline"
-            >
+            <a href="#" className="hover:text-ii text-inherit no-underline">
               Industries <FontAwesomeIcon icon={faAngleDown} size="xs" />
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              className="hover:text-indigo-600 text-inherit no-underline"
-            >
+            <a href="#" className="hover:text-ii text-inherit no-underline">
               Company <FontAwesomeIcon icon={faAngleDown} size="xs" />
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              className="hover:text-indigo-600 text-inherit no-underline"
-            >
+            <a href="#" className="hover:text-ii text-inherit no-underline">
               About Us
             </a>
           </li>
           <li>
-            <a>
+            <p className=" hover:scale-175 cursor-pointer text-ii text-lg">
               <FontAwesomeIcon icon={faMagnifyingGlass} />
-            </a>
+            </p>
           </li>
         </ul>
         <a
-          class="inline-block rounded-full bg-indigo-600 px-8 py-3 text-sm font-medium text-white  hover:shadow-xl  active:bg-indigo-500"
+          class="inline-block no-underline rounded-full bg-ii px-8 py-3 text-sm font-semibold text-white  hover:shadow-xl  active:bg-indigo-500"
           href="/download"
         >
           Get A Demo

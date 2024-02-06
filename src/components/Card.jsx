@@ -100,27 +100,19 @@ const Card = () => {
       </div>
       <div className="flex justify-center font-f text-center gap-[80px]">
         <div>
-          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
-            20+
-          </h1>
+          <h1 className=" font-semibold text-[64px] text-ii p-5">20+</h1>
           <p className=" font-medium text-base">Enterprise Customers</p>
         </div>
         <div>
-          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
-            20M+
-          </h1>
+          <h1 className=" font-semibold text-[64px] text-ii p-5">20M+</h1>
           <p className=" font-medium text-base">Consumer base impacted daily</p>
         </div>
         <div>
-          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
-            32+
-          </h1>
+          <h1 className=" font-semibold text-[64px] text-ii p-5">32+</h1>
           <p className=" font-medium text-base">Products rolled out</p>
         </div>
         <div>
-          <h1 className=" font-semibold text-[64px] text-indigo-600 p-5">
-            50+
-          </h1>
+          <h1 className=" font-semibold text-[64px] text-ii p-5">50+</h1>
           <p className=" font-medium text-base">Projects Delivered</p>
         </div>
       </div>
